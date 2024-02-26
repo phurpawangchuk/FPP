@@ -1,0 +1,7 @@
+Interface:
+	- All methods are by default public abstract 
+	- all methods should be implement in the implemented class
+	- members fields by default is public static final (can not override)
+	- In java8 on wards
+		- default and static with body can be there
+	
