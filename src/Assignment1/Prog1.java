@@ -1,5 +1,7 @@
 package Assignment1;
 
+import Assignment1.RandomNumbers;
+
 public class Prog1 {
     public static void main(String[] args) {
         /* 1. get a random number x in the range 1 .. 9 and compute π^x */

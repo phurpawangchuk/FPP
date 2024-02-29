@@ -2,10 +2,15 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
+    <content url="file://$MODULE_DIR$/..">
+      <sourceFolder url="file://$MODULE_DIR$/../Assignment/src/Assignment#1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../FPP/Assignments/ThreeDateClass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../FPP/Assignments/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../FPP/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../FPP_Pretest/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
