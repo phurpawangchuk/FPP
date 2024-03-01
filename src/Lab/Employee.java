@@ -4,6 +4,8 @@ public class Employee {
     private String name;
     private double salary;
 
+    Employee() {}
+
     public Employee(String name, double salary) {
         this.name = name;
         this.salary = salary;
@@ -31,5 +33,16 @@ public class Employee {
                 "name='" + name + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    public void swap(Employee x, Employee y) {
+        Employee temp = x;
+        x= y;
+        y = temp;
+
+        System.out.println("X : "+x.name + "Salary = "+x.getSalary());
+        System.out.println("Y : "+y.name + "Salary = "+y.getSalary());
+        x.setSalary(45000);
+        y.setName("Y-NewName");
     }
 }
