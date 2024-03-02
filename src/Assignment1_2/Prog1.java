@@ -1,6 +1,4 @@
-package Assignment1;
-
-import Assignment1.RandomNumbers;
+package Assignment1_2;
 
 public class Prog1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Assignment2;
+package Assignment3;
 
 // How to make Immutable class
 final class Contacts {  // 1. Make your as final to avoid inheritance

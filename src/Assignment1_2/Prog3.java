@@ -1,4 +1,4 @@
-package Assignment1;
+package Assignment1_2;
 import java.util.Arrays;
 
 public class Prog3 {

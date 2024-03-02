@@ -1,4 +1,4 @@
-package Assignment2;
+package Assignment3;
 
 final public class Triangle {
     final private double base;

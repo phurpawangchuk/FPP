@@ -1,4 +1,4 @@
-package Assignment1;
+package Assignment1_2;
 
 public class Prog4 {
     public static void main(String[] args) {
