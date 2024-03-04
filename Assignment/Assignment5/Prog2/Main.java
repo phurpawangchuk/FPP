@@ -1,4 +1,4 @@
-package Assignment5;
+package Assignment5.Prog2;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-02-03
  */
-public class Main2 {
+public class Main {
     public static void main(String[] args) {
         DeptEmployee[] deptEmployees = new DeptEmployee[5];
 

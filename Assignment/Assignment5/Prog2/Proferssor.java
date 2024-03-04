@@ -1,4 +1,4 @@
-package Assignment5;
+package Assignment5.Prog2;
 
 import java.time.LocalDate;
 

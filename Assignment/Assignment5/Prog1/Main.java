@@ -1,10 +1,10 @@
-package Assignment5;
+package Assignment5.Prog1;
 /**
  * @author phurpawangchuk
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-02-03
  */
-public class Main1 {
+public class Main {
     public static void main(String[] args) {
         Shape[] shapes = new Shape[5];
 

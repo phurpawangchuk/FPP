@@ -1,4 +1,4 @@
-package Assignment5;
+package Assignment5.Prog1;
 
 /**
  * @author phurpawangchuk
