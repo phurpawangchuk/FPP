@@ -1,6 +1,6 @@
 package A67;/**
  * @author phurpawangchuk
  * @contact phurpa.wangchuk@miu.edu
- * @year 2024-02-03
- */public class DownwardHat {
+ * @year 2024-03-03
+ */public class IntegerBreak {
 }
