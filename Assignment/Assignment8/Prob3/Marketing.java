@@ -1,7 +1,6 @@
 package Assignment8.Prob3;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author phurpawangchuk
@@ -9,6 +8,7 @@ import java.util.List;
  * @year 2024-12-03
  */
 public class Marketing {
+
     private String employeeName;
     private String productName;
     private double salesAmount;
@@ -19,15 +19,21 @@ public class Marketing {
         this.salesAmount = salesAmount;
     }
 
+    public double getSalesAmount() {
+        return salesAmount;
+    }
+
     public static List<Marketing> listMoreThan1000(List<Marketing> list) {
-        List<Marketing> list1 = new ArrayList<>();
+        List<Marketing> listMore = new ArrayList<>();
+
         for(Marketing m: list){
-            if(m.salesAmount > 1000){
-                list1.add(m);
+            if(m.getSalesAmount() > 1000){
+                listMore.add(m);
             }
         }
-        return list1;
+        return listMore;
     }
+
 
     @Override
     public String toString() {
@@ -38,15 +44,40 @@ public class Marketing {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Marketing marketing = (Marketing) o;
+        return Double.compare(marketing.salesAmount, salesAmount) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(salesAmount);
+    }
+
     public static void main(String[] args) {
         List<Marketing> list = new ArrayList<>();
-        list.add(new Marketing("Alice", "Shoe", 500));
-        list.add(new Marketing("Bob", "Pen", 2500));
-        list.add(new Marketing("Cathy", "Pencil", 3500));
+        list.add(new Marketing("Wang", "Shoe", 500));
+        list.add(new Marketing("Bob", "Pen", 3500));
+        list.add(new Marketing("Cathy", "Pencil", 1000));
+        list.add(new Marketing("Tony", "Chair", 2500));
 
-        List<Marketing> list1 = listMoreThan1000(list);
+         list.sort(new Comparator<Marketing>() {
+            @Override
+            public int compare(Marketing o1, Marketing o2) {
+                return Double.compare(o1.getSalesAmount(), o2.getSalesAmount());
+            }
+        });
+        System.out.println("Sorted List:");
+        System.out.println(list);
 
-        System.out.println(list1);
+        System.out.println("Sale Amount more than 1000 :");
+        List<Marketing> listOfMore = listMoreThan1000(list);
+
+        System.out.println(listOfMore);
 
     }
+
 }
