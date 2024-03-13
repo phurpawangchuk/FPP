@@ -64,14 +64,17 @@ public class Marketing {
         list.add(new Marketing("Cathy", "Pencil", 1000));
         list.add(new Marketing("Tony", "Chair", 2500));
 
-         list.sort(new Comparator<Marketing>() {
+        System.out.println("Size:"+list.size());
+        System.out.println("Unsorted List:"+list);
+
+        list.sort(new Comparator<Marketing>() {
             @Override
             public int compare(Marketing o1, Marketing o2) {
                 return Double.compare(o1.getSalesAmount(), o2.getSalesAmount());
             }
         });
-        System.out.println("Sorted List:");
-        System.out.println(list);
+
+        System.out.println("Sorted List:"+list);
 
         System.out.println("Sale Amount more than 1000 :");
         List<Marketing> listOfMore = listMoreThan1000(list);
