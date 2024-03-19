@@ -5,5 +5,6 @@ package A67.Lab.InnerClasses;
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-08-03
  */
-public class main {
+public interface MyInterface {
+    public void myInterfaceMethod();
 }

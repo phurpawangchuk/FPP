@@ -1,6 +1,10 @@
-package A67.Lab.MidTermExam;/**
+package A67.Lab.MidTermExam;
+
+/**
  * @author phurpawangchuk
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-09-03
- */public interface MyInterface {
+ */
+public interface MyInterface {
+    public abstract void doSomething();
 }

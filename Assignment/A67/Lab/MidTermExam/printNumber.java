@@ -1,4 +1,4 @@
-package A67.Lab.Recursion;
+package A67.Lab.MidTermExam;
 
 /**
  * @author phurpawangchuk

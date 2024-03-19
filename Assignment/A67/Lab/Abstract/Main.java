@@ -5,7 +5,7 @@ package A67.Lab.Abstract;
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-04-03
  */
-public class Main1 {
+public class Main {
     public static void main(String[] args) {
         ClosedCurve[] shapes = { new Square(4),new Circle(5), new Rectangle(4,5), new Triangle(4,5)};
 

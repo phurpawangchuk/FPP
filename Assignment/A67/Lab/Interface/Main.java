@@ -1,4 +1,4 @@
-package A67.Lab.Abstract;
+package A67.Lab.Interface;
 
 /**
  * @author phurpawangchuk

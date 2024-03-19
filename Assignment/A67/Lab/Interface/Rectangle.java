@@ -1,11 +1,11 @@
-package A67.Lab.Abstract;
+package A67.Lab.Interface;
 
 /**
  * @author phurpawangchuk
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-04-03
  */
-public class Rectangle extends ClosedCurve{
+public class Rectangle implements ClosedCurve {
     private double width;
     private double height;
 

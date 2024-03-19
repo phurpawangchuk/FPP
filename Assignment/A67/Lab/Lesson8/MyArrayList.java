@@ -1,18 +1,16 @@
 package A67.Lab.Lesson8;
 
-import java.util.Arrays;
-
 /**
  * @author phurpawangchuk
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-11-03
  */
-public class MyStringList {
+public class MyArrayList {
     private final int MAX_NUm = 4;
     private int totalElements;
     private String[] currentArray;
 
-    MyStringList(){
+    MyArrayList(){
         currentArray = new String[MAX_NUm];
         totalElements = 0;
     }
@@ -123,4 +121,23 @@ public class MyStringList {
         return sb.toString();
     }
 
+    public static void main(String[] args) {
+        MyArrayList list = new MyArrayList();
+        list.add("A");
+        list.add("B");
+        list.add("C");
+        list.add("D");
+        list.insert("B1",2);
+        list.insert("B2",3);
+        list.add("E");
+        list.remove("B2");
+        list.add("E1");
+        list.remove("E1");
+        list.add("E2");
+        list.find("D");
+
+        System.out.println(list);
+
+        list.reverseList();
+    }
 }

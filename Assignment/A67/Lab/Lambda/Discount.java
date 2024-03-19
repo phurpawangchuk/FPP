@@ -1,6 +1,14 @@
-package A67.Lab.Lambda;/**
+package A67.Lab.Lambda;
+
+import java.util.Objects;
+
+/**
  * @author phurpawangchuk
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-07-03
- */public interface Discount {
+ */
+@FunctionalInterface
+public interface Discount {
+    int giveDiscount(int x);
 }
+

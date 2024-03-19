@@ -1,4 +1,4 @@
-package MPP_Dan.lession1.quiz;
+package MPP_Dan.lession1;
 
 /**
  * @author phurpawangchuk

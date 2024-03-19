@@ -5,6 +5,6 @@ package A67.Lab.NestedClass;
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-05-03
  */
-public interface IMyClass {
+public interface IMyInterface {
     public abstract void doSomething();
 }

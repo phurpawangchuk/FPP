@@ -6,25 +6,25 @@ package A67;
  * @year 2024-02-03
  */
 
-public class ListNode {
+public class ListNodeDeletion {
     int data;
-    ListNode head;
-    ListNode next;
+    ListNodeDeletion head;
+    ListNodeDeletion next;
 
-    ListNode(){}
+    ListNodeDeletion(){}
 
-    ListNode(int data){
+    ListNodeDeletion(int data){
         this.data = data;
         this.next = null;
         this.head = null;
     }
 
     void add(int data){
-        ListNode newNode = new ListNode(data);
+        ListNodeDeletion newNode = new ListNodeDeletion(data);
         if(head == null)
             head = newNode;
         else{
-            ListNode n = head;
+            ListNodeDeletion n = head;
             while(n.next != null){
                 n = n.next;
             }
@@ -34,7 +34,7 @@ public class ListNode {
     }
 
     void displayNode(){
-        ListNode n = head;
+        ListNodeDeletion n = head;
         while(n != null){
             System.out.print(n.data+" ");
             n = n.next;
@@ -42,7 +42,7 @@ public class ListNode {
     }
 
     private void removeFromLastAtPos(int pos) {
-        ListNode first = head;
+        ListNodeDeletion first = head;
 
         int count = getNodeCount();
         for(int i=1; i<count-pos; i++){
@@ -62,7 +62,7 @@ public class ListNode {
     }
 
     private int getNodeCount() {
-        ListNode node = head;
+        ListNodeDeletion node = head;
         int count = 0;
         while(node != null){
             node = node.next;
@@ -72,7 +72,7 @@ public class ListNode {
     }
 
     public static void main(String[] args) {
-        ListNode node = new ListNode();
+        ListNodeDeletion node = new ListNodeDeletion();
         node.add(2);
         node.add(5);
         node.add(7);

@@ -1,0 +1,455 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "A67.Association.OneToOne.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "BestToBuy",
+            "request": "launch",
+            "mainClass": "A67.BestToBuy",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "IntegerBreak",
+            "request": "launch",
+            "mainClass": "A67.IntegerBreak",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "A67.Lab.Abstract.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "FindSumInArray",
+            "request": "launch",
+            "mainClass": "A67.Lab.FindSumInArray",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "A67.Lab.HomeTask.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "A67.Lab.Inheritance.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "A67.Lab.InnerClasses.AnonymousClass.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "A67.Lab.InnerClasses.MemberClass.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "A67.Lab.InnerClasses.StaticInnerClass.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "A67.Lab.Interface.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "MainImp",
+            "request": "launch",
+            "mainClass": "A67.Lab.Interface.MainImp",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "A67.Lab.Lambda.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "MyAbstractImp",
+            "request": "launch",
+            "mainClass": "A67.Lab.MyAbstractImp",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "AnotherClass",
+            "request": "launch",
+            "mainClass": "A67.Lab.NestedClass.AnotherClass",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "MainIMyClass",
+            "request": "launch",
+            "mainClass": "A67.Lab.NestedClass.MainIMyClass",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "MyClass",
+            "request": "launch",
+            "mainClass": "A67.Lab.NestedClass.MyClass",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "MyOuterCLass",
+            "request": "launch",
+            "mainClass": "A67.Lab.NestedClass.MyOuterCLass",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "VehicleMain",
+            "request": "launch",
+            "mainClass": "A67.Lab.NestedClass.VehicleMain",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "A67.Lab.OrderOfExecution.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "A67.Lab.Recursion.ReverseString",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "SumofGivenNumber",
+            "request": "launch",
+            "mainClass": "A67.Lab.Recursion.SumofGivenNumber",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(10)",
+            "request": "launch",
+            "mainClass": "A67.Lab.Reflection.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "A67.Lab.RotateArray",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(11)",
+            "request": "launch",
+            "mainClass": "A67.Lab.Singleton.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "ListDemo",
+            "request": "launch",
+            "mainClass": "A67.ListDemo",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "ListNodeDeletion",
+            "request": "launch",
+            "mainClass": "A67.ListNodeDeletion",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main1",
+            "request": "launch",
+            "mainClass": "A67.Main1",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement",
+            "request": "launch",
+            "mainClass": "A67.MajorityElement",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "MaxFind",
+            "request": "launch",
+            "mainClass": "A67.MaxFind",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "MissingFirstNumber",
+            "request": "launch",
+            "mainClass": "A67.MissingFirstNumber",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "PowerOf4",
+            "request": "launch",
+            "mainClass": "A67.PowerOf4",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDupliateSorted",
+            "request": "launch",
+            "mainClass": "A67.RemoveDupliateSorted",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "RemoveElement",
+            "request": "launch",
+            "mainClass": "A67.RemoveElement",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Runner",
+            "request": "launch",
+            "mainClass": "A67.Runner",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "SquareArraySort",
+            "request": "launch",
+            "mainClass": "A67.SquareArraySort",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog1",
+            "request": "launch",
+            "mainClass": "Assignment1_2.Prog1",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog2",
+            "request": "launch",
+            "mainClass": "Assignment1_2.Prog2",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog3",
+            "request": "launch",
+            "mainClass": "Assignment1_2.Prog3",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog4",
+            "request": "launch",
+            "mainClass": "Assignment1_2.Prog4",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog5",
+            "request": "launch",
+            "mainClass": "Assignment1_2.Prog5",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog6",
+            "request": "launch",
+            "mainClass": "Assignment1_2.Prog6",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "RandomNumbers",
+            "request": "launch",
+            "mainClass": "Assignment1_2.RandomNumbers",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "AgeCalculator",
+            "request": "launch",
+            "mainClass": "Assignment3.AgeCalculator",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "ImmutableDemo",
+            "request": "launch",
+            "mainClass": "Assignment3.ImmutableDemo",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog1(1)",
+            "request": "launch",
+            "mainClass": "Assignment3.Prog1",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog2(1)",
+            "request": "launch",
+            "mainClass": "Assignment3.Prog2",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Prog3(1)",
+            "request": "launch",
+            "mainClass": "Assignment3.Prog3",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "ArraySum",
+            "request": "launch",
+            "mainClass": "Assignment4.ArraySum",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "CountDigits",
+            "request": "launch",
+            "mainClass": "Assignment4.CountDigits",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "DigitsReverse",
+            "request": "launch",
+            "mainClass": "Assignment4.DigitsReverse",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(12)",
+            "request": "launch",
+            "mainClass": "Assignment5.Prob1.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(13)",
+            "request": "launch",
+            "mainClass": "Assignment5.Prob2.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(14)",
+            "request": "launch",
+            "mainClass": "Assignment5.Prob3.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(15)",
+            "request": "launch",
+            "mainClass": "Assignment5.Prob4.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(16)",
+            "request": "launch",
+            "mainClass": "Assignment5.Prob5.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(17)",
+            "request": "launch",
+            "mainClass": "Assignment6.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(18)",
+            "request": "launch",
+            "mainClass": "MPP_Dan.lession1.quiz.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(19)",
+            "request": "launch",
+            "mainClass": "MPP_Dan.lession2.unidirectional.one_2_many.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(20)",
+            "request": "launch",
+            "mainClass": "MPP_Dan.lession2.unidirectional.one_2_one.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(21)",
+            "request": "launch",
+            "mainClass": "MPP_Dan.lession2.unidirectional.one_2_one_practice.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(22)",
+            "request": "launch",
+            "mainClass": "MPP_Dan.lession2.unidirectional.one_2_zero_one.Main",
+            "projectName": "Assignment_7263a231"
+        },
+        {
+            "type": "java",
+            "name": "Main(23)",
+            "request": "launch",
+            "mainClass": "MPP_Dan.lession2.unidirectional.one_2_zero_one_practice.Main",
+            "projectName": "Assignment_7263a231"
+        }
+    ]
+}

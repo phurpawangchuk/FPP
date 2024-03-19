@@ -1,4 +1,4 @@
-package MPP_Dan.lession2.bidirection;
+package MPP_Dan.lession2.bidirection.one2one;
 
 /**
  * @author phurpawangchuk

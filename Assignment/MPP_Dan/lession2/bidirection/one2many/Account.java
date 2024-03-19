@@ -1,4 +1,4 @@
-package MPP_Dan.lession2.bidirection.one_2_one.one_2_many;
+package MPP_Dan.lession2.bidirection.one2many;
 
 /**
  * @author phurpawangchuk
@@ -7,10 +7,12 @@ package MPP_Dan.lession2.bidirection.one_2_one.one_2_many;
  */
 public class Account {
     private Integer accountId;
-    private Customer customer;
+    private String accountType;
 
-    public Account(Integer accountId) {
+    public Account(Integer accountId, String accType) {
+
         this.accountId = accountId;
+        accountType = accType;
     }
 
     public Integer getAccountId() {
@@ -19,5 +21,13 @@ public class Account {
 
     public void setAccountId(Integer accountId) {
         this.accountId = accountId;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountId=" + accountId +
+                ", accountType=" + accountType +
+                '}';
     }
 }

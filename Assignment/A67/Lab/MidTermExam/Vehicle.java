@@ -1,4 +1,4 @@
-package A67.Lab.Inheritance;
+package A67.Lab.MidTermExam;
 
 import java.util.Objects;
 

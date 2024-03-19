@@ -1,10 +1,10 @@
-package A67.Lab.Abstract;
+package A67.Lab.Interface;
 
 /**
  * @author phurpawangchuk
  * @contact phurpa.wangchuk@miu.edu
  * @year 2024-04-03
  */
-public abstract class ClosedCurve {
+public interface ClosedCurve {
     public abstract double computeArea();
 }
